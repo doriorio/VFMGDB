@@ -1,10 +1,10 @@
 from app import db
 
-class ShoppingList(db.document):
+class ShoppingList(db.Document):
     name = db.StringField()
     quantity = db.FloatField()
     unit = db.StringField()
-    missing = db.BoolField()
+    missing = db.BooleanField()
 
     def __dict__(self):
         return {
