@@ -36,6 +36,7 @@ def create_shopping_list(shopping_list=None):
                 missing=into_bool(item_dict, 'missing'),
             )
             list_item.save()
+            print(list_item)
 
 
 def create_default_shopping_list():

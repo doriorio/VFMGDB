@@ -6,5 +6,5 @@ class Config(object):
     MONGODB_HOST = '0.0.0.0'
     MONGODB_PORT = 27017
     ENV = 'development'
-    SERVER_NAME = '0.0.0.0:5000'
+    SERVER_NAME = 'localhost:5000'
     DEBUG = True
